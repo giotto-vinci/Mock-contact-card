@@ -1,0 +1,30 @@
+@import url("css\reset.css");
+
+.profile-image {
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.profile-image .profile-pic {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: aqua;
+    border: solid;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: row;
+    background-color: burlywood;
+    border: solid;
+  }
