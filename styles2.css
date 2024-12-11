@@ -1,0 +1,22 @@
+.back_card {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+    background-color: rgba(7, 7, 7, 0.884);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 2rem;
+    width: 80%;
+    height: 300px;
+}
+
+@media (min-width: 500px) {
+    .back_card {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+    }
+}
