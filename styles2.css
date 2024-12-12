@@ -11,12 +11,3 @@
     width: 80%;
     height: 300px;
 }
-
-@media (min-width: 500px) {
-    .back_card {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        justify-content: center;
-    }
-}
